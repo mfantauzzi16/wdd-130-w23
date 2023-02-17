@@ -81,7 +81,7 @@ main section img {
 
 .home-grid {
     display: grid;
-    grid-template-columns: 10fr;
+    grid-template-columns: 10fr 10fr 10fr 10fr 10fr 10fr 10fr 10fr 10fr 10fr;
 }
 
 #background {
@@ -94,7 +94,8 @@ main section img {
 body {
     background-color:var(--accent3-color);
     font-size: 22px;
-    margin: 0;
+    margin-left: 5%;
+    margin-right: 5%;
     padding: 0;
 }
 
