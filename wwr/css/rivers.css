@@ -1,0 +1,29 @@
+:root{
+    --primary-color: #415A77 ;
+    --secondary-color: #AEECEF;
+    --accent1-color: #C8553D;
+    --accent2-color: #566E3D;
+    --accent3-color: #dcdcdc;
+    --accent4-color: #FFFFFF;
+    --accent5-color: #000000;
+
+    --heading-font: "Kalam";
+    --paragraph-font: Marcellus, Helvetica, sans-serif;
+}
+
+body {
+background-color: var(--accent3-color);
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+main {
+    text-align: center;
+}
+
+nav a{
+    text-align: center;
+}
