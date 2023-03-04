@@ -13,6 +13,10 @@
     --paragraph-font: Marcellus, Helvetica, sans-serif;
 }
 
+.arizona-msg h2 {
+    font-family:var(--heading-font);
+}
+
 body {
 background-color: var(--accent3-color);
 }
@@ -53,11 +57,27 @@ footer p a:hover {
 
 header {
     background-color:var(--primary-color);
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+.home-grid {
+
+}
+
+.idaho-msg h2 {
+    font-family:var(--heading-font);
 }
 
 .logo {
     width: 80px;
     padding-top: 10px;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 
 main {
@@ -74,9 +94,22 @@ nav a{
 nav {
     display: flex;
     justify-content: space-around;
+    font-size: 1.5em;
 }
 
 nav a:hover {
     background-color:var(--secondary-color);
     color:var(--accent5-color);
+}
+
+.river-img1 {
+
+}
+
+.river-img2 {
+
+}
+
+.utah-msg h2 {
+    font-family:var(--heading-font);
 }
