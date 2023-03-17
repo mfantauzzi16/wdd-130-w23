@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Prompt&display=swap');
+
+:root {
+  --primary-color: #1B998B   ;
+  --secondary-color: #C73E1D ;
+  --accent1-color: #C59849;
+  --accent2-color: #F3E8EE;
+
+  --heading-font: 'Indie Flower', cursive;
+  --paragraph-font: 'Prompt', sans-serif;
+
+  --headline-color-on-white: #1B998B;
+  --headline-color-on-color: white;
+  --paragraph-color-on-white: #C73E1D; 
+  --paragraph-color-on-color: white; 
+  --paragraph-background-color: #1B998B  ;
+  --nav-link-color: #F3E8EE;
+  --nav-background-color: #C73E1D;
+  --nav-hover-link-color: #C59849;
+  --nav-hover-background-color: #1B998B;
+}
+
+#banner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: -100px; 
+}
+
+#banner-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+header {
+    background-color:var(--secondary-color);
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+.logo {
+    width: 80px;
+    padding-top: 10px;
+}
+
+#logo-link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+nav a{
+    text-align: center;
+    color:var(--accent2-color);
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover {
+    background-color:var(--primary-color);
+    color:var(--accent1-color);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5em;
+}
